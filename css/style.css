@@ -8,11 +8,24 @@ header{
     height: 750px;
     width: 100%;
 }
+#built{
+    background: -webkit-linear-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, .9)), to(rgba(22, 22, 22, .8)));
+    background: linear-gradient(to bottom, #161616 0, rgba(22, 22, 22, .9) 75%, rgba(22, 22, 22, .8) 100%);
+}
 h1{
     color: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
+    font-family: 'Varela Round', sans-serif;
     font-size: 6.5rem;
     letter-spacing: .8rem;
     text-transform: uppercase;
+}
+a{
+    color: #64a19d;
+}
+a:hover,
+a:active{
+    color: #3c6360;
+    text-decoration: none;
 }
 .navbar-light .navbar-nav .nav-link{
     color: rgba(255, 255, 255, .5);
