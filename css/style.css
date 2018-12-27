@@ -3,7 +3,7 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 header{
-    background: url(../images/bg-masthead.jpg) no-repeat center bottom fixed;
+    background: url(../images/bg-masthead.jpg) no-repeat center bottom;
     background-size: cover;
     height: 750px;
     width: 100%;
@@ -11,6 +11,24 @@ header{
 #built{
     background: -webkit-linear-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, .9)), to(rgba(22, 22, 22, .8)));
     background: linear-gradient(to bottom, #161616 0, rgba(22, 22, 22, .9) 75%, rgba(22, 22, 22, .8) 100%);
+}
+#projects h4{
+    color: #212528;
+}
+.projects-section .featured-text{
+    padding: 0 0 0 2rem;
+    border-left: .5rem solid #64a19d;
+}
+.projects-section .project-text hr{
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+}
+.bg-black{
+    background: #161616 !important;
+}
+.projects-section .project-text{
+    padding: 5rem;
 }
 h1{
     color: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
