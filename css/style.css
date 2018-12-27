@@ -15,6 +15,9 @@ header{
 #projects h4{
     color: #212528;
 }
+.projects-section{
+    padding: 10rem 0;
+}
 .projects-section .featured-text{
     padding: 0 0 0 2rem;
     border-left: .5rem solid #64a19d;
@@ -29,6 +32,27 @@ header{
 }
 .projects-section .project-text{
     padding: 5rem;
+}
+.signup-section {
+    padding: 10rem 0;
+    background: -webkit-linear-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, .1)), color-stop(75%, rgba(22,
+        22, 22, .5)), to(#161616)),
+        url(../images/bg-signup.jpg);
+    background: linear-gradient(to bottom, rgba(22, 22, 22, .1) 0, rgba(22, 22, 22, .5) 75%, #161616 100%),
+        url(../images/bg-signup.jpg);
+    background-position: center;
+    background-repeat: background-repeat
+}
+.signup-section .form-inline input{
+    -webkit-box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1) !important;
+    box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1) !important;
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
 }
 h1{
     color: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
@@ -64,6 +88,18 @@ a:active{
 .btn-info:active {
     background: #467370;
     border-color: #467370;
+}
+.btn-primary{
+    background: #64a19d;
+    border-color: #64a19d;
+    -webkit-box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1) !important;
+    box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1) !important;
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
 }
 .navbar-brand{
     color: rgba(255, 255, 255, .5) !important;
