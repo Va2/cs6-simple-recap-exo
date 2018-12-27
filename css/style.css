@@ -1,9 +1,13 @@
 body{
-    /* color: rgba(255, 255, 255, .5); */
     font-family: 'Nunito', sans-serif;
 }
 header{
-    background: url(../images/bg-masthead.jpg) no-repeat center bottom;
+    background: -webkit-linear-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, .1)), color-stop(75%, rgba(22, 22, 22, .5)), to(#161616)),
+    url(../images/bg-masthead.jpg);
+    background: linear-gradient(to bottom, rgba(22, 22, 22, .1) 0, rgba(22, 22, 22, .5) 75%, #161616 100%),
+    url(../images/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 750px;
     width: 100%;
