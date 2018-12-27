@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/Va2/cs6-simple-recap-exo#readme",
   "dependencies": {
-    "bootstrap": "^4.2.1",
-    "font-awesome": "^4.7.0"
+    "bootstrap": "^4.2.1"
   }
 }
