@@ -1,5 +1,5 @@
 body{
-    color: rgba(255, 255, 255, .5);
+    /* color: rgba(255, 255, 255, .5); */
     font-family: 'Nunito', sans-serif;
 }
 header{
@@ -7,6 +7,12 @@ header{
     background-size: cover;
     height: 750px;
     width: 100%;
+}
+header .jumbo-color {
+    color: rgba(255, 255, 255, .5);
+}
+footer{
+    padding: 80px 0;
 }
 #built{
     background: -webkit-linear-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, .9)), to(rgba(22, 22, 22, .8)));
@@ -138,6 +144,9 @@ a:active{
     line-height: 3rem;
     color: rgba(255, 255, 255, .3);
     text-align: center;
+}
+.contact-section .social a:hover{
+    color: rgba(255, 255, 255, .5);
 }
 .navbar-brand{
     color: rgba(255, 255, 255, .5) !important;
